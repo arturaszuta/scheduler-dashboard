@@ -10,7 +10,7 @@ function getSpotsForDay(state, day) {
   ).length;
 }
 
-export function setInterview(state, id, interview) {
+export default function setInterview(state, id, interview) {
   const appointments = {
     ...state.appointments,
     [id]: {
